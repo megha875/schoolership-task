@@ -45,10 +45,10 @@ new Swiper(".destinationSwiper", {
     //centeredSlides: true,
     autoplay: false,
 
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 
     breakpoints: {
         320: { slidesPerView: 1, spaceBetween: 15 },
@@ -66,10 +66,10 @@ new Swiper("#testimonalsSwiper", {
     //centeredSlides: true,
     autoplay: false,
 
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
 
     breakpoints: {
         320: { slidesPerView: 1, spaceBetween: 15 },
