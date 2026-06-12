@@ -58,26 +58,26 @@ new Swiper(".destinationSwiper", {
     }
 });
 
-new Swiper("#testimonalsSwiper", {
-    slidesPerView: 5,
-    spaceBetween: 10,
-    loop: true,
+// new Swiper("#testimonalsSwiper", {
+//     slidesPerView: 5,
+//     spaceBetween: 10,
+//     loop: true,
    
-    //centeredSlides: true,
-    autoplay: false,
+//     //centeredSlides: true,
+//     autoplay: false,
 
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
+//     autoplay: {
+//         delay: 2500,
+//         disableOnInteraction: false,
+//     },
 
-    breakpoints: {
-        320: { slidesPerView: 1, spaceBetween: 15 },
-        576: { slidesPerView: 2, spaceBetween: 20 },
-        768: { slidesPerView: 3, spaceBetween: 25 },
-        992: { slidesPerView: 4, spaceBetween: 10},
-    }
-});
+//     breakpoints: {
+//         320: { slidesPerView: 1, spaceBetween: 15 },
+//         576: { slidesPerView: 2, spaceBetween: 20 },
+//         768: { slidesPerView: 3, spaceBetween: 25 },
+//         992: { slidesPerView: 4, spaceBetween: 10},
+//     }
+// });
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -85,10 +85,10 @@ document.addEventListener("DOMContentLoaded", function () {
         slidesPerView: 5,
         spaceBetween: 10,
         loop: true,
-        speed: 4000,
+        speed: 1000,
 
         autoplay: {
-            delay: 0,
+            delay: 3000,
             disableOnInteraction: false, 
         }, 
         // autoplay:false,
